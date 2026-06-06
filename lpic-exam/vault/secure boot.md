@@ -1,0 +1,1 @@
+A security feature designed to protect your PC's pre-boot environment from malware, rootkits, and unauthorized operating systems.

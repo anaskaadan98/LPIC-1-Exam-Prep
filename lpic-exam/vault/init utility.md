@@ -1,0 +1,1 @@
+The `init` program is responsible for running all initialization scripts and system daemons.
