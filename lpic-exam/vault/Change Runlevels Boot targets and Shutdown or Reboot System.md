@@ -49,7 +49,9 @@ shutdown [option] time [message]
 - The `message` parameter is the warning text sent to all terminal sessions of logged-in users.
 - We can limit users that will be able to restart the machine by sending the signal `Ctrl + Alt + Del` and this is possible by placing option `-a` for the `shutdown` command present at the line regarding `ctrlaltdel` in the `/etc/inittab` file. By doing this, only users whose usernames are in the `/etc/shutdown.allow` file will be able to restart the system with the `Ctrl + Alt + Del` keystroke combination.
 - The `systemctl` command can also be used to turn off or to restart the machine (`systemd reboot` or `systemd poweroff`).
-- The command `wall` is able to send a message to terminal sessions of all logged-in users.
+ 
+> [!NOTE] 
+> The command `wall` is able to send a message to terminal sessions of all logged-in users.
 
 
 ---

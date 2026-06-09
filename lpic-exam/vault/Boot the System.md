@@ -13,18 +13,18 @@ Post installation make sure to follow the guidelines in this file: [[Virtual mac
 
 **Bootloader:** Press (`esc`) during startup to navigate to the bootloaders page. The bootloader page is a critical system software program that initializes a device's hardware and loads its operating system into memory.
 
+- GRUB is shortened for *Grand Unified Bootloader*, it's main job is to display a list of operating systems available to boot.
+	- In BIOS system press `Shift`
+	- In UEFI system press `Esc`
 - The *BIOS* is stored in *ROM*
 - The *BIOS* assumes that the first 440 bytes in the first storage device are the first stage of the bootloader (bootstrap).
 - The first 512 bytes of a storage device are named *MBR* (Master Boot Record).
-- GRUB is shortened for *Grand Unified Bootloader*, it's main job to display a list of operating systems available to boot.
-	- In BIOS system press `Shift`
-	- In UEFI system press `Esc`
-
-[[Linux Kernel Options]]
 
 **MBR:** A specialized boot sector at the very beginning of a partitioned storage drive.
 
 ![[booting-the-system-01.png]]
+
+[[Linux Kernel Options]]
 
 **UEFI:** *Unified Extensible Firmware Interface* is the modern firmware standard that bridges your computer's hardware and operating system.
 
@@ -40,6 +40,8 @@ Post installation make sure to follow the guidelines in this file: [[Virtual mac
 ![[boot-the-system-03.png]]
 
 The option of [[secure boot]] is also available in *UEFI*.
+
+
 
 ## System Initialization
 

@@ -1,1 +1,1 @@
-It is short for Desktop-Bus which is a standardized inter-process (communication) between the hardware (HAL) and the software. It allows different software applications and system services running on the same computer to easily talk to each other, share data, and request services.
+It is short for **Desktop-Bus** which is a standardized inter-process (communication) between the hardware (HAL) and the software. It allows different software applications and system services running on the same computer to easily talk to each other, share data, and request services.
