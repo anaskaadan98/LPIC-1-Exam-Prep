@@ -1,0 +1,1 @@
+**Master Boot Record:** A specialized boot sector at the very beginning of a partitioned storage drive.
