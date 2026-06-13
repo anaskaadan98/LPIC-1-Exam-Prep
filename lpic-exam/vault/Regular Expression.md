@@ -1,0 +1,1 @@
+A special sequence of characters that defines a search pattern.
