@@ -1,6 +1,7 @@
 ---
 Weight: "2"
 ---
+
 | Command | Purpose                                                         |
 | ------- | --------------------------------------------------------------- |
 | `cat`   | - Print out the content of a file<br>- Write into file with `>` |
