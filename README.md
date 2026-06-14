@@ -7,6 +7,8 @@ This project is an Obsidian vault for some notes i took while preparing for the 
 
 I took these notes in a Twitch's IRL streams on my channel [The Novice Engineer](https://www.twitch.tv/thenoviceengineer).
 
+If you would like to show support and help me grow the community, here is my [Buy me a coffee](https://buymeacoffee.com/thenoviceengineer) link.
+
 ## Project Content
 
 ### Linux Professional Institute
