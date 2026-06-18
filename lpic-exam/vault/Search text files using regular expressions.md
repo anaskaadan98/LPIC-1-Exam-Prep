@@ -3,7 +3,7 @@ Weight: "3"
 ---
 # Regular Expressions
 
-The simplest regular expression contains at least one *atom*. An *atom*, is the basic element of a regular expression, is just a character that may or may not have special meaning.
+The simplest regular expression contains at least one *atom*. An *atom*, is the basic element of a regular expression, it is just a character that may or may not have special meaning.
 
 The are two types of Regular Expressions:
 	- **Basic Regular Expressions (BRE)**
@@ -54,11 +54,10 @@ When a quantifier is applied, regex looks for a **contiguous repetition** of the
 
 ## Atom Piece
 
-A **piece** is simply the part of the text that was matched and it is the smallest individual building block of a regex pattern.
+A **piece** is simply the part of the text that was matched (Atom) and it is the smallest individual building block of a regex pattern.
 
-## Last sentence
-
-Quantifiers control how many times a regex atom repeats, producing a contiguous matched sub-string called a piece, but the exact behavior can differ across regex standards and implementations.
+**Last sentence**
+> Quantifiers control how many times a regex atom repeats, producing a contiguous matched sub-string called a piece, but the exact behavior can differ across regex standards and implementations.
 
 # Branches and Back References
 
@@ -134,7 +133,7 @@ s/old/new/option
 | `sed '10,20d' file.txt`                | Delete lines 10 through 20                                |
 | `sed '/^$/d' file.txt`                 | Delete blank lines                                        |
 | `sed -n '5p' file.txt`                 | Prints only line 5                                        |
-| `sed '10,20p' file.txt`                | Prints lines 10 through 20                                |
+| `sed -n '10,20p' file.txt`             | Prints lines 10 through 20                                |
 | `sed -n '/ERROR/p' logfile.txt`        | Print matching lines                                      |
 | `sed '/START/i\New line inserted'`     | Insert before a line                                      |
 | `sed '/START/a\Added after START'`     | Insert after a line                                       |
@@ -146,8 +145,9 @@ s/old/new/option
 | `sed 's/ *$//'`                        | Removing trailing spaces                                  |
 | `sed 's/  */ /g'`                      | Removing leading spaces                                   |
 | `sed 's/,/\t/g'`                       | Work with CSV-like Data (Replace `,` with horizontal tab) |
-| `ls *.txt \| sed 's/.txt$/.bak/'`      | Rename files via Pipelines                                |
-| `sed -n 's/.*\([0-9]\{4\}\).*/\1/p'`   | Extract Information Using Regex                           |
+| `ls *.txt` \| `sed 's/.txt$/.bak/'`    | Rename files via Pipelines                                |
+| `sed -n 's/.*\([0-9]\{4\}\).*/\1/p'`   | Extract Information Using Regex (Date)                    |
+
 
 > [!Tip]
 > In practice:
