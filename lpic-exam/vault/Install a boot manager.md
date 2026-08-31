@@ -96,7 +96,7 @@ Output:
 (proc) (hd0) (hd0,msdos1)
 ```
 
-The firs partition of `hd0` is called `msdos1` because the disk was partitioned using the [[MBR Partition]]  scheme. If it were partitioned using [[GPT Partition]], the name would be `gpt1`.
+The first partition of `hd0` is called `msdos1` because the disk was partitioned using the [[MBR Partition]]  scheme. If it were partitioned using [[GPT Partition]], the name would be `gpt1`.
 
 2. Check the content of the partition
 

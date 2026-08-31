@@ -41,7 +41,7 @@ Extra repositories can be added by the user by adding a `.repo` file in the dire
 
 ## DNF
 
-The package management too used on Fedora, and is a fork of `yum`
+The package management tool used on Fedora, and is a fork of `yum`
 
 | Command                             | Purpose                                                |
 | ----------------------------------- | ------------------------------------------------------ |

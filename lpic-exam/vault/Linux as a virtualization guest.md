@@ -99,7 +99,7 @@ Key features:
 	- Locale and regional settings
 	- Other system options
 - Runs during a VM's **first boot** and applies the prdefined configuration.
-- Simplifies the rapid depoyment of multiple cloud-based Linux systems with consistent settings.
+- Simplifies the rapid deployment of multiple cloud-based Linux systems with consistent settings.
 
 # Containers
 
@@ -119,6 +119,7 @@ Containers rely on the Linux kernel's **cgroups** feature, which allows administ
 - Memory
 - Disk bandwidth
 - Network bandwidth
+
 Container software uses cgroups to:
 - Isolate applications
 - Limit resource usage
