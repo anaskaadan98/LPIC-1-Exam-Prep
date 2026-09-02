@@ -5,7 +5,7 @@ Weight: "3"
 
 The simplest regular expression contains at least one *atom*. An *atom*, is the basic element of a regular expression, it is just a character that may or may not have special meaning.
 
-The are two types of Regular Expressions:
+There are two types of Regular Expressions:
 	- **Basic Regular Expressions (BRE)**
 	- **Extended Regular Expressions (ERE)**
 

@@ -27,9 +27,9 @@ Weight: "4"
 find STARTING_PATH OPTIONS EXPRESSION
 ```
 
-- STARTING_PATH: defines the directory were the search begins
-- OPTIONS: Controls the behavior and adds specific criteria to optimize the search process
-- EXPRESSION: Defines the search query
+- **STARTING_PATH**: defines the directory were the search begins
+- **OPTIONS**: Controls the behavior and adds specific criteria to optimize the search process
+- **EXPRESSION**: Defines the search query
 
 ## Using criteria to Speed Search
 
