@@ -320,3 +320,5 @@ If you are using `parted`, the partition should be identified as a swap partitio
 | `swapoff /dev/sdb1` | Disable swap          |
 | `swapoff -a`        | Disable all swap      |
 | `cat /proc/swaps`   | Show swap devices     |
+
+---

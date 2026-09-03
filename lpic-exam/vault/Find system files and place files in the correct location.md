@@ -5,7 +5,7 @@ Weight: "2"
 
 ## Temporary Files
 
-Temporary files are files used by programs to store data that are only needed for a short time. This can be the datat of running processes, crash logs, scratch files from an autosave, intermediary files used  during a file conversion, cache file and such.
+Temporary files are files used by programs to store data that are only needed for a short time. This can be the data of running processes, crash logs, scratch files from an autosave, intermediary files used  during a file conversion, cache file and such.
 
 **Location of Temporary Files**:
 

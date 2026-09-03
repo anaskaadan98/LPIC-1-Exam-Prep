@@ -1,7 +1,7 @@
 ---
 Weight: "2"
 ---
-There two types of links on a Linux system:
+There are two types of links on a Linux system:
 
 **Symbolic links:** They point to the path of another file. If you delete the file the link will still exist, but it stops working, as it now points to nothing.
 
@@ -91,3 +91,4 @@ ln -s /home/carol/Documents/original.txt softlink
 
 - An absolute-path symbolic link continues to work **regardless of where the link itself is moved**.
 
+---

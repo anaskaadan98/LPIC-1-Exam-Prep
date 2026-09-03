@@ -109,7 +109,7 @@ Before changing the ownership of a file, it might be useful to know which groups
 | Command                 | Purpose                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------- |
 | `getent group`          | See which groups exist on your system                                            |
-| `groups`                | To know which groups a user belongs, add the username as a parameter to `groups` |
+| `groups USER`           | To know which groups a user belongs, add the username as a parameter to `groups` |
 | `groupmems -g cdrom -l` | See which users belong to a group                                                |
 
 ## Default Permissions
@@ -133,7 +133,7 @@ As you can see, `002` corresponds to `rw-rw-r--`, exactly as we requested. the l
 
 # Special Permissions
 
-Besides the read, write and execute permission for user, group and others, each file can have three other *special permissions* which can alter the way a directory works or how a program runs. The can be specified either in symbolic or octal mode, and are as follows:
+Besides the read, write and execute permission for user, group and others, each file can have three other *special permissions* which can alter the way a directory works or how a program runs. They can be specified either in symbolic or octal mode, and are as follows:
 
 |Permission|Symbol|Numeric Value|Applies To|
 |---|---|---|---|
